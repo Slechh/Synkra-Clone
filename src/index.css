@@ -1,16 +1,27 @@
 @import "tailwindcss";
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
+
 @theme {
   --color-gray: #78766f;
   --color-light-gray: #f6f7f9;
   --color-birch: #0d9488;
   --color-dark-blue: #1a56db;
+  --color-light-blue: #ecf2fd;
   --color-black: #1f1e1c;
+  --color-brown: #514f4a;
+
+  --border-gray: #e4e3df;
+  
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-newsreader: "Newsreader", serif;
 }
 
 body {
   background-color: var(--color-light-gray);
+  font-family: var(--font-dm-sans);
 }
+
 button {
   cursor: pointer;
 }
